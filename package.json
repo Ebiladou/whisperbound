@@ -17,7 +17,8 @@
   },
   "author": "Oyinebiladou Omemu",
   "license": "MIT",
-  "type": "commonjs",
+  "type": "module",
+  "ts-node": { "esm": true },
   "bugs": {
     "url": "https://github.com/Ebiladou/whisperbound/issues"
   },

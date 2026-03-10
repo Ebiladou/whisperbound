@@ -1,9 +1,10 @@
 {
   "compilerOptions": {
-    "rootDir": ".",
+    "rootDir": "./src",
     "outDir": "./dist",
 
-    "module": "commonjs",
+    "module": "NodeNext",
+    "moduleResolution": "nodenext",
     "target": "ES2023",
 
     "lib": ["esnext"],
@@ -24,6 +25,8 @@
     "moduleDetection": "force",
     "skipLibCheck": true,
     "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
   },
 
   "include": ["src/**/*"],

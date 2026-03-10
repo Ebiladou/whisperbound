@@ -1,4 +1,8 @@
 .env
 node_modules
 dist
-/generated/prisma
+generated
+*.log
+logs/
+.eslintcache
+.nyc_output/
